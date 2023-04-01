@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokemon</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="pokeapi.js"></script>
+    <script src="pilas.js"></script>
+  </head>
+  <body>
+    <main class="container">
+      <section class="title">
+        <img
+          src="images/logo_Pokemon_Battle_Revolution.png"
+          alt="LogoPokemonBattle"
+          class="titleImg"
+        />
+      </section>
+      <section class="gameStart" id="gameStart">
+        <button class="button btnStartGame" type="submit" id="btnGame">
+          Start Game
+        </button>
+      </section>
+      <section class="searchPokemonSection" id="searchPokemonSection">
+        <span class="searchText">Escoge 3 Pokemons para la batalla</span>
+        <div class="searchPokemon">
+          <input
+            type="text"
+            class="pokemonName"
+            id="pokemonName"
+            placeholder="Busca tu pokemon"
+          />
+          <button class="button" type="submit" id="btnBuscar">Buscar</button>
+        </div>
+        <p id="error" class="fst-italic"></p>
+      </section>
+
+      <section class="pokemonInfo" id="pokemonInfo">
+        <div class="pokemonImage" id="pokemonImage"></div>
+        <div class="pokemonDetails" id="pokemonDetails"></div>
+        <button class="button btnEscogerCss" type="submit" id="btnEscoger">
+          Escoger
+        </button>
+      </section>
+
+      <section class="battle" id="battle">
+        <h2 class="battleTitle">Time to Battle</h2>
+        <button class="button startBattle" type="submit" id="startBattle">
+          Start Battle
+        </button>
+        <h2 class="battleResults" id="battleResults">You Won!</h2>
+        <article class="pokeBattle">
+          <div class="pokemonPosition">
+            <div class="yourPokemon" id="yourPokemon"></div>
+            <div class="yourPokeName" id="yourPokeName"></div>
+            <div class="selection" id="yourSelection"></div>
+          </div>
+          <img src="images/arena.png" alt="ArenaPokemon" class="arenaPokemon" />
+          <div class="pokemonPosition">
+            <div class="computerPokemon" id="computerPokemon"></div>
+            <div class="computerPokename" id="computerPokename"></div>
+            <div class="selection" id="compuSelection"></div>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>

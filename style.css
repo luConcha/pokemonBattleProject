@@ -1,0 +1,145 @@
+body {
+  background-color: #7aac57;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.title {
+  margin-top: 20px;
+}
+.titleImg {
+  width: 400px;
+}
+
+.gameStart {
+  margin-top: 10px;
+  padding: 20px;
+}
+
+.searchPokemonSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+.searchPokemon {
+  margin-top: 10px;
+}
+
+.pokemonImage img {
+  width: 150px;
+}
+
+.pokemonName {
+  width: 200px;
+  height: 25px;
+  border-radius: 20px;
+}
+
+.button {
+  width: 80px;
+  height: 28px;
+  border-radius: 20px;
+  color: rgb(212, 170, 93);
+  border: 0px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btnStartGame {
+  width: 150px;
+  height: 80px;
+  font-size: 30px;
+}
+.btnEscogerCss {
+  margin-left: 20px;
+  background-color: #7aac57;
+  color: white;
+}
+.fst-italic {
+  font-style: italic;
+  color: #d33147;
+}
+
+.pokemonInfo {
+  display: flex;
+  flex-direction: row;
+  min-width: 450px;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid green;
+  padding: 10px;
+  padding-right: 40px;
+  background-color: ivory;
+}
+
+.pokemonDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.battle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.battleTitle {
+  font-size: 50px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(31, 69, 112);
+}
+
+.startBattle {
+  margin-bottom: 20px;
+  font-size: 20px;
+  width: 200px;
+}
+
+.pokeBattle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pokemonPosition {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.arenaPokemon {
+  max-width: 500px;
+  margin-left: 20px;
+}
+
+.yourPokemon {
+  width: 215px;
+}
+.computerPokemon {
+  width: 215px;
+}
+
+.selection {
+  display: flex;
+  border: 1px solid black;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.selection img {
+  width: 80px;
+}
